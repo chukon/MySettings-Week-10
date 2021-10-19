@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -43,11 +44,8 @@
                                     <action selector="btnSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WGI-6V-1bs"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lJ-hZ-W8a">
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="4lJ-hZ-W8a">
                                 <rect key="frame" x="82" y="128" width="250" height="162"/>
-                                <date key="date" timeIntervalSinceReferenceDate="656261438.15523899">
-                                    <!--2021-10-18 14:50:38 +0000-->
-                                </date>
                                 <date key="minimumDate" timeIntervalSinceReferenceDate="-1925038800">
                                     <!--1940-01-01 11:00:00 +0000-->
                                 </date>
